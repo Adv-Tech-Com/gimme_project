@@ -1,0 +1,169 @@
+/******* Global CSS Script  ********/
+
+.colorwhite {
+	color: white;
+}
+
+.none {
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+
+.centerwidth {
+	margin: 0 auto;
+	width: 96%;
+}
+
+.inline {
+	display: inline;
+}
+
+.clear {
+	clear: both;
+}
+
+.totalcenter {
+	margin: 0 auto;
+	width: 480px;
+	margin-top: 15%;
+}
+
+h1.hometitle {
+	font-family: "Times New Roman";
+	font-size: 70px;
+}
+
+h1 {
+	font-family: "Times New Roman";
+	font-size: 22px;
+	margin: 2px 2px 15px 2px;
+	padding: 2px 2px 5px 2px;
+	border-bottom: 1px solid #CCC;
+	color: #7C74BB;
+}
+
+label {
+	display: block;
+	margin: 6px 0 2px 0;
+}
+
+span.required {
+	color: red;
+}
+
+.errorMessage {
+	color: #EB2A2A;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.borderaround {
+	border: 1px solid #CCC;
+	margin: 5px 5px 5px 0;
+	padding: 5px;
+}
+
+.hint {
+	font-size: 10px;
+}
+
+.wid400 {
+	width: 400px;
+}
+
+.wid450 {
+	width: 450px;
+}
+
+.wid500 {
+	width: 500px;
+}
+
+.wid550 {
+	width: 550px;
+}
+
+.wid600 {
+	width: 600px;
+}
+
+.wid700 {
+	width: 700px;
+}
+
+.wid800 {
+	width: 800px;
+}
+
+.minheight300 {
+	min-height: 300px;
+}
+
+.minheight400 {
+	min-height: 400px;
+}
+
+.minheight500 {
+	min-height: 500px;
+}
+
+.minheight600 {
+	min-height: 600px;
+}
+
+.msgsuccess {
+	margin: 15px 0;
+	color: #008000;
+	font-style: italic;
+	padding: 4px;
+	/* border: 1px solid #008000; */
+	width: 400px;
+}
+
+input[type=text],input[type=email],input[type=password] {
+	width: 400px;
+	padding: 4px;
+}
+
+textarea {
+	width: 400px;
+	height: 50px;
+	padding: 4px;
+}
+
+input[type=text].captchatext {
+	width: 200px;
+	float: right;
+	margin-right: 5px;
+}
+
+input[type=submit] {
+	background: #7C74BB;
+	border: 1px solid #4237A0;
+	-webkit-box-shadow: 0 1px 0 #FFF;
+	-moz-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #FFF;
+	font-weight: bold;
+	height: 22px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0 10px;
+	color: #EEE;
+	cursor: pointer;
+}
+
+.captchaimage img {
+	float: left;
+}
+
+.captchaimage a#yw0_button {
+	float: left;
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
